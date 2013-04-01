@@ -53,10 +53,9 @@
                     <a class="" href="../../index.html">Salir</a>
                   </li>
                 </ul>
+              </div>
+            </div>
         </div>
-    </div>
-
-</div>
     </div>
 </div>
 
@@ -64,83 +63,88 @@
 
 <!-- Cuerpo -->  
 <div id="captura-indicadores" class="container margencontainer">
-    <div class="span12 seccion3">
-        <div class="span5 secciontext">
-            <ul>
-                <li>
+  <div class="span12 seccion3">
+    <div class="span5 secciontext">
+        <ul>
+            <li>
                 <p class="formato"><h4>Base de datos general Puerto Dexth&iacute;</h4></p>
-                    <a id="enviadas" href="#"> Insertar </a>
-                    -
-                <a  href="actualizar.html">Actualizar</a>
+                <a id="enviadas" href="insertar.html"> Insertar </a>
                 -
-                <a id="eliminar.html" href="eliminar.html"> Eliminar </a>
+                <a id="no-enviadas" href="actualizar.html"> Actualizar</a>
                 -
-                <a id="#" href="buscar.html"> Buscar </a>
-                </li>
-            </ul>
-        </div>
-        <div class="span11 seccion3-1"> 
-<div class="row-fluid">
+                <a id="evaluadas" href="#"> Eliminar </a>
+                -
+                <a id="todas" href="buscar.html"> Buscar </a>
+            </li>
+        </ul>
+    </div>
+    <div class="span11 seccion3-1"> 
+      <div class="row-fluid">
         <div class="span6 formulario row-fluid">
-            <form class="container-fluid"  method="post">
-             <div class="group">
+          <form class="container-fluid"  method="post">
+            <div class="group">
               <div class=""><h4>Datos del Habitante</h4></div>
-                    <div class="span12 espacio">
+                <div class="span12 espacio">
                   <div class="span4">
                     Identificador:
-                      </div>
+                  </div>
                   <div class="span4">
                     <input class="span12" value="" placeholder="Clave del Habitante" name="">
-                      </div>
+                  </div>
+                  <div class="span4">
+                    <div class="span5">
+                      <button class="btn btn-primary" type="submit"> Buscar </button>
                     </div>
-                    <div class="span12 espacio">
+                  </div>
+                </div>
+                <div class="span12 espacio">
                   <div class="span4">
-                            Nombre:
-                          </div>
-                          <div class="span6">
-                            <input class="span12" value="" placeholder="Nombre" name="">
-                        </div>
-                    </div>
-                     <div class="span12 espacio">
+                    Nombre:
+                  </div>
+                  <div class="span6">
+                     <input class="span12" value="" placeholder="Nombre" name="">
+                  </div>
+                </div>
+                <div class="span12 espacio">
                   <div class="span4">
-                            Apellido Paterno:
-                          </div>
-                          <div class="span6">
-                            <input class="span12" value="" placeholder="Apellido Paterno" name="">
-                        </div>
-                    </div>
-                     <div class="span12 espacio">
+                    Apellido Paterno:
+                  </div>
+                  <div class="span6">
+                    <input class="span12" value="" placeholder="Apellido Paterno" name="">
+                  </div>
+                </div>
+                <div class="span12 espacio">
                   <div class="span4">
-                            Apellido Materno:
-                          </div>
-                          <div class="span6">
-                            <input class="span12" value="" placeholder="Apellido Materno" name="">
-                        </div>
-                    </div> 
-                  <div class="span12  espacio">
+                    Apellido Materno:
+                  </div>
+                  <div class="span6">
+                    <input class="span12" value="" placeholder="Apellido Materno" name="">
+                  </div>
+                </div>
+                <div class="span12 espacio">
                   <div class="span4">
-                      Fecha de Nacimiento:
+                      Edad:
                   </div>
                   <div class="span3">
-                    <input class="span12" value="" placeholder="D&iacute;a / Mes / A&ntilde;o" name="">
+                    <input class="span12" value="" placeholder="Edad" name="">
                   </div>
                 </div> 
                 <div class="span12  espacio">
                   <div class="span4">
-                            Sexo:
-                    </div>   
+                     Sexo:
+                  </div>   
                   <div class="span3">F
                     <input class="span5" value="" type = "checkbox" name="F">
-                      </div>
+                  </div>
                   <div class="span3">M
                     <input class="span5" value="" type = "checkbox" name="">
-                      </div>
                   </div>
+                </div>
                 <div class="span12 espacio">
                   <div class="span4">
                       Estado C&iacute;vil:
-                    </div>
-                          <div class="span6">
+                  </div>
+                    <div class="span6">
                       <select class = 'span12' type= 'combobox'>
                         <option>Estado C&iacute;vil</option>
                         <option>Soltero (a)</option>
@@ -149,16 +153,16 @@
                         <option>Viudo (a)</option>
                         <option></option>
                       </select>
-                        </div>
-                    </div>
+                  </div>
+                </div>
                 
-                          </div>
+            </div>             
           </form>
-                        </div>
+        </div>
         <div class="span6 row-fluid"> 
           <form class="container-fluid"  method="post">
             <div class="span12"></div>
-                    <div class="span12 espacio">
+            <div class="span12 espacio">
               <div class="span4">
                  Direcci&oacute;n:
               </div>
@@ -168,9 +172,9 @@
             </div> 
             <div class="span12 espacio">
               <div class="span4">
-                           Escolaridad:
-                          </div>
-                          <div class="span6">
+                 Escolaridad:
+              </div>
+              <div class="span6">
                 <select class = 'span12' type= 'combobox'>
                     <option>Nivel de Escolaridad</option>
                     <option>Sin estudio</option>
@@ -186,26 +190,26 @@
                     <option>Doctorado</option>
                     <option></option>
                 </select>
-                        </div>
-                    </div> 
-                    <div class="span12  espacio">
+              </div>
+            </div> 
+            <div class="span12  espacio">
               <div class="span4">
-                            Estatus de Estudio:
-                    </div>   
-                      <div class="span3">
+                Estatus de Estudio:
+              </div>   
+              <div class="span3">
                 S&iacute;
                 <input class="span5" value="" type = "radio" name="">
-                      </div>
-                      <div class="span3">
+              </div>
+              <div class="span3">
                 No
                 <input class="span5" value="" type = "radio" name="">
-                      </div>
-                  </div>
-                  <div class="span12 espacio">
+              </div>
+            </div>
+            <div class="span12 espacio">
               <div class="span4">
                 Ocupaci&oacute;n:
-                          </div>
-                          <div class="span6">
+              </div>
+              <div class="span6">
                 <select class = 'span12' type= 'combobox'>
                     <option>Estudiante</option>
                     <option>Jornalero</option>
@@ -216,41 +220,41 @@
                     <option>Ama de casa</option>
                     <option>Emigrante</option>
                 </select>
-                        </div>
-                    </div>
-                    <div class="span12 espacio">
+              </div>
+            </div>
+            <div class="span12 espacio">
               <div class="span4">
-                           Cargo:
-                          </div>
-                          <div class="span6">
-                            <input class="span12" value="" placeholder="Cargo" name="">
-                        </div>
-                    </div>
-                    <div class="span12  espacio">
+                Cargo:
+              </div>
+              <div class="span6">
+                <input class="span12" value="" placeholder="Cargo" name="">
+              </div>
+            </div>
+            <div class="span12  espacio">
               <div class="span4">
-                            Activo:
-                    </div>   
-                      <div class="span3">
+                Activo:
+              </div>   
+              <div class="span3">
                 S&iacute;
                 <input class="span5" value="" type = "radio" name="">
-                      </div>
-                      <div class="span3">
+              </div>
+              <div class="span3">
                 No
                 <input class="span5" value="" type = "radio" name="">
-                      </div>
-                  </div> 
-                      <div class="span12">
-            </div> 
+              </div>
+            </div>
             <div class="span12">
+            </div> 
+             <div class="span12">
               <div class="span7">
               </div>
               <div class="span5">
-                        <button class="btn btn-primary" type="submit">  Guardar Datos</button>
-                      </div>
-                  </div> 
-             </form>
-          </div>
+                <button class="btn btn-danger" type="submit">  Eliminar Datos</button>
+              </div>
+            </div> 
+          </form>
         </div>
+      </div>
     </div>
   </div>
 </div>

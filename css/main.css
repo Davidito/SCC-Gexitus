@@ -38,17 +38,72 @@
 	padding: 7px 9px;
 }
 
+#footerInicio 
+{
+	background-color: #F5F5F5;
+	border-radius: 10px 10px 10px 10px;
+	height: 50px;
+	text-align: center;
+	margin-top: 150px;
+	position: static;
+
+}
+
 
 /********************************************************************************
 	CSS Estilos G-exitus System
 	Nombre: Configuracion
 	Responsable: Noemi Mejia.
 ********************************************************************************/
+.seccion1 {
+    border: 1px solid gray;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 2px gray;
+    height: 85%;
+    margin: 25px;
+    overflow-y: auto;
+    width: 90%;
+	background: white;
+}
 
+.seccion1-1 {
+    border: 1px solid gray;
+    border-radius: 15px 15px 15px 15px;
+    float: left;
+    height: 175px;
+    margin: 30px;
+    width: 280px;
+}
+.seccion1-1-1 {
+    border: 1px solid gray;
+    border-radius: 15px 15px 0 0;
+    float: left;
+    height: 40px;
+    margin: -1px;
+    width: 280px;
+    background: white;
+}
+
+
+.bd {
+    background: url("../img/img1.png") repeat scroll 0px 176px transparent;
+    width:280px;
+    display: block;
+    height: 175px;
+    margin: 30px;   
+}
+
+p.fuente
+{
+    font-family:Tahoma;
+    text-align:center;
+    font-size:14pt;  
+    margin-top: 7px; 
+}
 
 /********************************************************************************
 	CSS Estilos G-exitus System
-	Nombre: Inicio Session
+	Nombre: BD General Insertar
 	Responsable: David.
 ********************************************************************************/
 /*Pie de pagina*/
@@ -58,19 +113,35 @@
 	border-radius: 10px 10px 10px 10px;
 	height: 50px;
 	text-align: center;
-	margin-top: 620px;
+	margin-top: 60px;
+	position: static;
 }
 .margencontainer
 {
 	margin-top: 80px;
 	background-color: #F5F5F5;
 	border-radius: 12px 12px 12px 12px;
-	height: 90%;
+	height: 480px;
 }
 .seccion3-1 {
 	border-radius: 15px 15px 15px 15px;
     box-shadow: 0 0 2px gray;
-    height: 83%;
-   	margin-top: 15px;
+    height: auto;
+   	margin-top: 10px;
     width: 90%;
+    background-color: white;
+}
+.espacio
+{
+	margin-top: 5px;
+}
+.report
+{
+	background-color: white;
+	border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 2px gray;
+    height: auto;
+   	margin-top: 10px;
+    width: 90%;
+
 }
