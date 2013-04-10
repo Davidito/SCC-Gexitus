@@ -3,7 +3,6 @@
 	Nombre: Inicio de Sesion
 	Responsable: Ismael Castilla Callejas
 ********************************************************************************/
-
 .body
 {
 	padding-top: 200px;
@@ -12,7 +11,7 @@
 }
 .form-signin
 {
-	max-width: 300px;
+	max-width: 500px;
 	padding: 19px 29px 29px;
 	margin: 0 auto 20px;
 	background-color: #fff;
@@ -23,11 +22,12 @@
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
 	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
 	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    height: 300px;
 }
 .form-signin .form-signin-heading,
 .form-signin .checkbox
 {
-	margin-bottom: 10px;
+	margin-bottom: 50px;
 }
 .form-signin input[type="text"],
 .form-signin input[type="password"]
@@ -49,6 +49,29 @@
 
 }
 
+.input-block-levelcss {
+    -moz-box-sizing: border-box;
+    display: block;
+    min-height: 30px;
+    width: 50%;  
+    float: left; 
+    margin-right: 10%;
+    margin-left: 40%; 
+}
+.lg {
+    background: url("../img/logo.png") repeat scroll -600px -10px transparent;
+    width:150px;
+    display: block;
+    height: 105px;
+    margin: 30px;   
+}
+.containerin
+{
+   margin-top: -115;
+   margin-left: 250px;
+   margin-bottom: 30;
+   margin-right: 30px;
+}
 
 /********************************************************************************
 	CSS Estilos G-exitus System
@@ -81,12 +104,23 @@
     height: 40px;
     margin: -1px;
     width: 280px;
-    background: white;
+    background: #8A0808;
 }
 
+#amenu
+{
+	color: white;
+}
 
 .bd {
-    background: url("../img/img1.png") repeat scroll 0px 176px transparent;
+    background: url("../img/Carpeta.png") repeat scroll 30px 265px transparent;
+    width:280px;
+    display: block;
+    height: 175px;
+    margin: 30px;   
+}
+.cobroAgua {
+    background: url("../img/dineroAgua.png") repeat scroll 16px 195px transparent;
     width:280px;
     display: block;
     height: 175px;
@@ -99,6 +133,26 @@ p.fuente
     text-align:center;
     font-size:14pt;  
     margin-top: 7px; 
+}
+
+.divbanner
+{
+    background: url("../img/puertoDexthi.jpg") repeat scroll 0px 42px transparent;
+    width:1350px;
+    height: 143px; 
+    display: block;
+}
+
+.divbannerind
+{
+    background: url("../img/puertoDexthi.jpg") repeat scroll 0px 42px transparent;
+    width:1350px;
+    height: 143px; 
+    display: block;
+}
+a:hover 
+{
+    color:#FFC800;
 }
 
 /********************************************************************************
@@ -118,7 +172,7 @@ p.fuente
 }
 .margencontainer
 {
-	margin-top: 80px;
+	margin-top: 15px;
 	background-color: #F5F5F5;
 	border-radius: 12px 12px 12px 12px;
 	height: 480px;
@@ -144,4 +198,20 @@ p.fuente
    	margin-top: 10px;
     width: 90%;
 
+}
+
+.margencontainerbuscar
+{
+	margin-top: 15px;
+	background-color: #F5F5F5;
+	border-radius: 12px 12px 12px 12px;
+	height: 960px;
+}
+.margendiv
+{
+	border: 1px solid ghostWhite;
+}
+
+.containerhisto {
+    width: 90%;
 }

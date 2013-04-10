@@ -59,22 +59,24 @@
     </div>
 </div>
 
-
+<!--Banner-->
+<div class="divbanner">
+</div>
 
 <!-- Cuerpo -->  
-<div id="captura-indicadores" class="container margencontainer">
+<div class="container margencontainer">
   <div class="span12 seccion3">
     <div class="span5 secciontext">
         <ul>
             <li>
-                <p class="formato"><h4>Base de datos general Puerto Dexth&iacute;</h4></p>
-                <a id="enviadas" href="insertar.html"> Insertar </a>
-                -
-                <a id="no-enviadas" href="#"> Actualizar</a>
-                -
-                <a id="evaluadas" href="eliminar.html"> Eliminar </a>
-                -
-                <a id="todas" href="buscar.html"> Buscar </a>
+              <p class="formato"><h4>Datos Generales</h4></p>
+              <a href="insertar.html"> Insertar </a>
+              -
+              <a href="#"> Actualizar</a>
+              -
+              <a href="eliminar.html"> Eliminar </a>
+              -
+              <a href="buscar.html"> Buscar </a>
             </li>
         </ul>
     </div>
@@ -89,7 +91,7 @@
                     Identificador:
                   </div>
                   <div class="span4">
-                    <input class="span12" value="" placeholder="Clave del Habitante" name="">
+                    <input class="span12" value="" placeholder="Clave del habitante" name="">
                   </div>
                   <div class="span4">
                     <div class="span5">
@@ -110,7 +112,7 @@
                     Apellido Paterno:
                   </div>
                   <div class="span6">
-                    <input class="span12" value="" placeholder="Apellido Paterno" name="">
+                    <input class="span12" value="" placeholder="Apellido paterno" name="">
                   </div>
                 </div>
                 <div class="span12 espacio">
@@ -118,7 +120,7 @@
                     Apellido Materno:
                   </div>
                   <div class="span6">
-                    <input class="span12" value="" placeholder="Apellido Materno" name="">
+                    <input class="span12" value="" placeholder="Apellido materno" name="">
                   </div>
                 </div>
                 <div class="span12 espacio">
@@ -133,11 +135,11 @@
                   <div class="span4">
                      Sexo:
                   </div>   
-                  <div class="span3">F
-                    <input class="span5" value="" type = "checkbox" name="F">
+                  <div class="span4">Femenino
+                    <input class="span5" value="" type = "radio" name="">
                   </div>
-                  <div class="span3">M
-                    <input class="span5" value="" type = "checkbox" name="">
+                  <div class="span4">Masculino
+                    <input class="span5" value="" type = "radio" name="">
                   </div>
                 </div>
                 <div class="span12 espacio">
@@ -146,7 +148,7 @@
                   </div>
                     <div class="span6">
                       <select class = 'span12' type= 'combobox'>
-                        <option>Estado C&iacute;vil</option>
+                        <option>Estado c&iacute;vil</option>
                         <option>Soltero (a)</option>
                         <option>Casado (a)</option>
                         <option>Divorciado (a)</option>
@@ -155,13 +157,6 @@
                       </select>
                   </div>
                 </div>
-                
-            </div>             
-          </form>
-        </div>
-        <div class="span6 row-fluid"> 
-          <form class="container-fluid"  method="post">
-            <div class="span12"></div>
             <div class="span12 espacio">
               <div class="span4">
                  Direcci&oacute;n:
@@ -170,6 +165,12 @@
                 <input class="span12" value="" placeholder="Direcci&oacute;n" name="">
               </div>
             </div> 
+            </div>             
+          </form>
+        </div>
+        <div class="span6 row-fluid"> 
+          <form class="container-fluid"  method="post">
+            <div class="span12"></div>
             <div class="span12 espacio">
               <div class="span4">
                  Escolaridad:
@@ -227,7 +228,28 @@
                 Cargo:
               </div>
               <div class="span6">
-                <input class="span12" value="" placeholder="Cargo" name="">
+                <select class = 'span12' type= 'combobox'>
+                    <option>Ninguno</option>
+                    <option>Delegado</option>
+                    <option>Comite del agua</option>
+                    <option>Comite de caminos</option>
+                    <option>Tesorero delegacion</option>
+                    <option>Tesorero de Agua</option>
+                    <option>Vocal</option>
+                    <option>Emigrante</option>
+                </select>
+              </div>
+            </div>
+            <div class="span12 espacio">
+              <div class="span4">
+                A&ntilde;o:
+              </div>
+              <div class="span6">
+                <select class = 'span12' type= 'combobox'>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                </select>
               </div>
             </div>
             <div class="span12  espacio">

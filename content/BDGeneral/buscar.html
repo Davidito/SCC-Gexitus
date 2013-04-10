@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="../../css/bootstrap-responsive.min.css" type="text/css">
     <link rel="stylesheet" href="../../css/bootstrap-responsive.css" type="text/css">
     
+    <script href="../../js/bootstrap.min.js" type='text/javascript'></script>
+    <script href="../../js/bootstrap.js" type='text/javascript'></script>
+
     <!-- css application -->
     <link rel="stylesheet" href="../../css/main.css" type="text/css">
    
@@ -59,22 +62,25 @@
     </div>
 </div>
 
+<!--Banner-->
 
+<div class="divbanner">
+</div>
 
 <!-- Cuerpo -->  
-<div id="captura-indicadores" class="container margencontainer">
-  <div class="span12 seccion3">
+<div class="container margencontainerbuscar">
+  <div class="span12">
     <div class="span5 secciontext">
         <ul>
             <li>
-                <p class="formato"><h4>Base de datos general Puerto Dexth&iacute;</h4></p>
-                <a id="enviadas" href="insertar.html"> Insertar </a>
+                <p class="formato"><h4>Datos General</h4></p>
+                <a href="insertar.html"> Insertar </a>
                 -
-                <a id="no-enviadas" href="actualizar.html"> Actualizar</a>
+                <a href="actualizar.html"> Actualizar</a>
                 -
-                <a id="evaluadas" href="eliminar.html"> Eliminar </a>
+                <a href="eliminar.html"> Eliminar </a>
                 -
-                <a id="todas" href="#"> Buscar </a>
+                <a href="#"> Buscar </a>
             </li>
         </ul>
     </div>
@@ -102,7 +108,7 @@
                     Nombre:
                   </div>
                   <div class="span6">
-                     <input class="span12" value="" placeholder="Nombre" name="">
+                     <div class="span12 margendiv" value="" name=""></div>
                   </div>
                 </div>
                 <div class="span12 espacio">
@@ -110,7 +116,7 @@
                     Apellido Paterno:
                   </div>
                   <div class="span6">
-                    <input class="span12" value="" placeholder="Apellido Paterno" name="">
+                    <div class="span12 margendiv" value=""  name=""></div>
                   </div>
                 </div>
                 <div class="span12 espacio">
@@ -118,7 +124,7 @@
                     Apellido Materno:
                   </div>
                   <div class="span6">
-                    <input class="span12" value="" placeholder="Apellido Materno" name="">
+                    <div class="span12 margendiv" value="" name=""></div>
                   </div>
                 </div>
                 <div class="span12 espacio">
@@ -126,18 +132,15 @@
                       Edad:
                   </div>
                   <div class="span3">
-                    <input class="span12" value="" placeholder="Edad" name="">
+                    <div class="span12 margendiv" value=""  name=""></div>
                   </div>
                 </div> 
                 <div class="span12  espacio">
                   <div class="span4">
                      Sexo:
                   </div>   
-                  <div class="span3">F
-                    <input class="span5" value="" type = "checkbox" name="F">
-                  </div>
-                  <div class="span3">M
-                    <input class="span5" value="" type = "checkbox" name="">
+                  <div class="span3">
+                    <div class="span12 margendiv" value="" name="F"></div>
                   </div>
                 </div>
                 <div class="span12 espacio">
@@ -145,14 +148,7 @@
                       Estado C&iacute;vil:
                   </div>
                     <div class="span6">
-                      <select class = 'span12' type= 'combobox'>
-                        <option>Estado C&iacute;vil</option>
-                        <option>Soltero (a)</option>
-                        <option>Casado (a)</option>
-                        <option>Divorciado (a)</option>
-                        <option>Viudo (a)</option>
-                        <option></option>
-                      </select>
+                      <div class="span12 margendiv" value=""  name=""></div>
                   </div>
                 </div>
                 
@@ -167,7 +163,7 @@
                  Direcci&oacute;n:
               </div>
               <div class="span6">
-                <input class="span12" value="" placeholder="Direcci&oacute;n" name="">
+                <div class="span12 margendiv" value=""  name=""></div>
               </div>
             </div> 
             <div class="span12 espacio">
@@ -175,21 +171,7 @@
                  Escolaridad:
               </div>
               <div class="span6">
-                <select class = 'span12' type= 'combobox'>
-                    <option>Nivel de Escolaridad</option>
-                    <option>Sin estudio</option>
-                    <option>Primaria Completa</option>
-                    <option>Primaria Incompleta</option>
-                    <option>Secundaria Completa</option>
-                    <option>Secundaria Incompleta</option>
-                    <option>Preparatoria Completa</option>
-                    <option>Preparatoria Incompleta</option>
-                    <option>Licenciatura</option>
-                    <option>Ingenieria</option>
-                    <option>Maestria</option>
-                    <option>Doctorado</option>
-                    <option></option>
-                </select>
+                <div class = 'span12 margendiv' ></div>
               </div>
             </div> 
             <div class="span12  espacio">
@@ -197,12 +179,7 @@
                 Estatus de Estudio:
               </div>   
               <div class="span3">
-                S&iacute;
-                <input class="span5" value="" type = "radio" name="">
-              </div>
-              <div class="span3">
-                No
-                <input class="span5" value="" type = "radio" name="">
+                    <div class="span12 margendiv" value="" name=""></div>
               </div>
             </div>
             <div class="span12 espacio">
@@ -210,24 +187,15 @@
                 Ocupaci&oacute;n:
               </div>
               <div class="span6">
-                <select class = 'span12' type= 'combobox'>
-                    <option>Estudiante</option>
-                    <option>Jornalero</option>
-                    <option>Alba&ntilde;il</option>
-                    <option>Campesino</option>
-                    <option>Profesor</option>
-                    <option>Herrero</option>
-                    <option>Ama de casa</option>
-                    <option>Emigrante</option>
-                </select>
+                <div class = 'span12 margendiv' ></div>
               </div>
             </div>
             <div class="span12 espacio">
               <div class="span4">
-                Cargo:
+                Cargo actual:
               </div>
               <div class="span6">
-                <input class="span12" value="" placeholder="Cargo" name="">
+                <div class="span12 margendiv" value=""  name=""></div>
               </div>
             </div>
             <div class="span12  espacio">
@@ -235,12 +203,7 @@
                 Activo:
               </div>   
               <div class="span3">
-                S&iacute;
-                <input class="span5" value="" type = "radio" name="">
-              </div>
-              <div class="span3">
-                No
-                <input class="span5" value="" type = "radio" name="">
+                    <div class="span12 margendiv" value="" name=""></div>
               </div>
             </div>
             <div class="span12">
@@ -250,6 +213,64 @@
               </div>
               <div class="span5">
                 <button class="btn btn-danger" type="submit">  Imprimir Reporte</button>
+              </div>
+            </div> 
+          </form>
+        </div>
+      </div>
+      <div class="containerhisto">
+        <div class="span6 row-fluid"> 
+            <hr>
+            <form class="container-fluid"  method="post">
+              <div class=""><h4>Historial</h4></div>
+              <div >
+                <p>Historial de cargos que a desempe&ntilde;ado el habitante durante su estancia en esta comunidad.
+                </p>
+              </div>
+              <div class="span6 espacio">
+                <hr>
+                <div class="span4">
+                    <b>A&ntilde;o:</b>
+                  </div>
+                  <div class="span4">
+                    <b>Cargo:</b>
+                  </div>
+                  <div class="span4">
+                    2012
+                  </div>
+                  <div class="span4">
+                    <div class="span12" value="" name="">Vocal</div>
+                  </div>
+                  <div class="span4">
+                    2013
+                  </div>
+                  <div class="span4">
+                    <div class="span12" value="" name="">Delegado</div>
+                  </div>
+                </div>
+            </form>
+          </div>
+          <div class="span6 row-fluid"> 
+            <hr>
+            <form class="container-fluid"  method="post">
+              <div class="span12"><h4>Deudas</h4></div>
+              <div >
+                <p>Historial de cooperaciones que adeuda el habitante durante su estancia en esta comunidad.
+                </p>
+              </div>
+              <div class="span12 espacio">
+                <hr>
+                  <div class="span2">
+                    Concepto:
+                  </div>
+                  <div class="span2">
+                    Monto:
+                  </div>
+                  <div class="span2">
+                    Periodo:
+                  </div>
+                  <div class="span2">
+                    A&ntilde;o:
               </div>
             </div> 
           </form>
